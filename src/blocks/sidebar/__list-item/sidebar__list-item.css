@@ -1,0 +1,7 @@
+.sidebar__list-item {
+  margin-bottom: 16px;
+}
+
+.sidebar__list-item:last-of-type {
+  margin-bottom: 0;
+}
