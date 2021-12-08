@@ -1,0 +1,7 @@
+.main__list-item {
+  margin-bottom: 48px;
+}
+
+.main__list-item:last-of-type {
+  margin-bottom: 0;
+}
