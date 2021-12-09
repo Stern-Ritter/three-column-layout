@@ -1,5 +1,7 @@
 @import url(./vendor/sanitize.css);
 
+@import url(./vendors/fonts/Inter/fonts.css);
+
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__section/page__section.css);
 
