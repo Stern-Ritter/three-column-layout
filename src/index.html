@@ -7,14 +7,13 @@
     <meta name="keywords" content="HTML5, CSS" />
     <meta name="author" content="Константин Фадеев" />
     <title>Three column layout</title>
-    <link rel="stylesheet" href="./index.css" />
   </head>
 
   <body class="page">
     <header class="header page__section">
       <img
         class="header__logo"
-        src="./images/header-logo.png"
+        src=<%=require("./images/header-logo.png")%>
         alt="Логотип 'Трехколоночный макет'"
       />
       <nav class="header__menu">
@@ -70,7 +69,7 @@
           <li class="main__list-item">
             <article class="card">
               <h2 class="card__header">
-                Используем свойства position: absolute и transform: translate.
+                Cвойства position: absolute и transform: translate.
               </h2>
               <p class="card__text">
                 Для горизонтального и вертикального центрирования абсолютно
@@ -110,7 +109,7 @@
           </li>
           <li class="main__list-item">
             <article class="card">
-              <h2 class="card__header">Используем свойства Grid-модели.</h2>
+              <h2 class="card__header">Использование свойства Grid-модели.</h2>
               <p class="card__text">
                 Относительно новая система верстки Grid-модель также
                 предоставляет набор свойств для центрирования контента в блоке
