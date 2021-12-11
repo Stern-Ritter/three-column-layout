@@ -1,0 +1,15 @@
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  font-family: "Inter", "Arial", sans-serif;
+  color: #ffffff;
+  /* Сглаживание шрифта */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Подгонка размера текста */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

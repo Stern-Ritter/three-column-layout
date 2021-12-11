@@ -1,0 +1,7 @@
+.header__menu-link {
+  margin-bottom: 16px;
+}
+
+.header__menu-link:last-of-type {
+  margin-bottom: 0;
+}
